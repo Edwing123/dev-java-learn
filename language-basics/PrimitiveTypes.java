@@ -2,7 +2,7 @@
 /*
     Java supports 8 primitive data types:
     - byte: an 8-bits signed integer. Range: -128 to 127.
-    - short: a 16-bites signed integer. Range: -32,768 to 32,767.
+    - short: a 16-bits signed integer. Range: -32,768 to 32,767.
     - int: a 32-bits signed integer. Range: -2^31 to 2^31-1.
     - long: a 64-bits signed integer. Range: -2^63 to 2^63-1.
     - float: a 32-bits single precision IEEE 754 floating point.

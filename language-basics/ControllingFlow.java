@@ -126,13 +126,7 @@ class Character {
     }
 
     public String getStats() {
-        return STR.
-
-
-
-
-
-    """
+        return STR."""
         Name: \{this.name}.
         Level: \{this.level}.
         HP: \{this.hp}.

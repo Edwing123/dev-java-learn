@@ -71,6 +71,7 @@ class Bar extends Foo {
     // And this is valid because [String] is a subclass of [Object].
     @Override
     String getObject() {
+        super.getObject();
         return "Hello, World!";
     }
 }

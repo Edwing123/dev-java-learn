@@ -1,4 +1,4 @@
 {
     "jdk.runConfig.vmOptions": "--enable-preview --source 21",
-    "jdk.runConfig.env": "DEBUG_APP=1"
+    "jdk.runConfig.env": "DEBUG_APP=1, JHCORE_PORT=4000"
 }

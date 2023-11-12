@@ -35,7 +35,7 @@ public class MoreNestedClasses {
  * using the [static] modifier.
  *
  * If we remember what this means for methods and fields, the
- * static modifier marks methods and fields as belogging to the
+ * static modifier marks methods and fields as belonging to the
  * class itself, not to the instances of the class.
  *
  * Also, it's important to remember that static methods and fields

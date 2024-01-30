@@ -13,7 +13,7 @@
     Apart from these types, the Java programming language offers types such
     as [java.lang.String], which is a class to represent a string of characters.
 
-    Java provides special support of that class, for example:
+    Java provides special support for that class, for example:
     var name = "Edwin"; // name is a String object.
 
     Strings in Java are immutable, which means that once a String object is

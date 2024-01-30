@@ -66,7 +66,7 @@ public class PrimitiveTypes {
         // https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
         // For local variables, Java does not assign a default value.
 
-        // Literal values.of
+        // Literal values.
 
         // Integers.
         int score = 89;

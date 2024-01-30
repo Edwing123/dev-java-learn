@@ -92,7 +92,7 @@ enum OfferType {
 	Internship("Prácticas profesionales");
 
 	// Members can be public, private, protected, etc.
-	// Though enums can be superclasses.
+	// Though enums can't be superclasses.
 	public String description;
 
 	// Enum constructors can only be private.

@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         var input = """
-        Hel o World,
+        Hello World,
         this is a poem,
         for the girl I like.
         """;

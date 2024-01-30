@@ -65,7 +65,9 @@ public class PrimitiveTypes {
         // The table is at the following link:
         // https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
         // For local variables, Java does not assign a default value.
-        // Literal values.
+
+        // Literal values.of
+
         // Integers.
         int score = 89;
         char letterGrade = 'A';

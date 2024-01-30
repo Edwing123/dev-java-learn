@@ -5,6 +5,11 @@ public class CreatingArrays {
         // A fixed-length sequense of elements of the same type.
         // The length of an array is established when the array is created.
         // After creation, its length is fixed.
+		//
+		// Having said that, the declaration of an array
+		// variable doesn't specify the size, which
+		// means we can (unless it's declared as final)
+		// assign arrays of different sizes.
         int[] grades;
 
         grades = new int[5];

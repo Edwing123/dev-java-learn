@@ -59,7 +59,7 @@ enum OS {
 	 * If we hover over the enum member, we can see that
 	 * the type: public static final OS <enum member name>.
 	 *
-	 * So each member looks like an implicit instnatiation,
+	 * So each member looks like an implicit instantiation,
 	 * and such instantiation is done by the compiler, and it
 	 * can only happen inside the enum body.
 	 */

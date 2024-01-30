@@ -9,7 +9,8 @@ public class CreatingArrays {
 		// Having said that, the declaration of an array
 		// variable doesn't specify the size, which
 		// means we can (unless it's declared as final)
-		// assign arrays of different sizes.
+		// reassign arrays of different sizes onces we've
+		// assigned it an array of a particular size.
         int[] grades;
 
         grades = new int[5];

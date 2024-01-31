@@ -5,7 +5,7 @@
  * @author edwing123
  *
  * Access control let us define if other classes (outside the class where
- * members are defined) can access to the members of a class.
+ * members are defined) can access the members of a class.
  *
  * There are two levels of access control: At the top level: we have [public] or
  * [package-private] (when no modifier is specified). At the member level: we

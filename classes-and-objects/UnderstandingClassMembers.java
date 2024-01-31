@@ -7,11 +7,12 @@
  * that even though two instances of the same class have
  * the same field, each field storage location is different(!).
  *
- * See how it's storage location, not value. This means that
+ * See how it is "storage location", not "value". This means that
  * if you change the value of a field in one instance, the
  * value of the same field in another instance will not change.
  *
- * Of course two instances could be pointing to the same object.
+ * Of course, there can be a case where a field of two instances
+ * could be pointing to the same object.
  *
  * So, what about if instead we want the class itself to hold its
  * own kind of state?

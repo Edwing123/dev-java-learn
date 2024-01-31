@@ -104,7 +104,7 @@ class Mathy {
 
 /**
  * Instance variables can be initialized by either providing a default value
- * when declaring them, or by putting up logic inside a constructor o method.
+ * when declaring them, or by putting up logic inside a constructor or method.
  *
  * The advantage of the latter is that we have more flexibility in the things
  * we can do to calculate a value for the instance (error handling, for example).

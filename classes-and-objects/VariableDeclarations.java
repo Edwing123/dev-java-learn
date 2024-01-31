@@ -42,7 +42,7 @@ class FieldDeclaration {
 
 class AccesModifiers {
     // The left-most modifier determines
-    // the level of access field has.
+    // the level of access the field has.
     // In other words, can other classes
     // access this field?
     //

@@ -110,7 +110,8 @@ class Mathy {
  * we can do to calculate a value for the instance (error handling, for example).
  *
  * For class variables though, it seems there's no way to accomplish this.
- * Well, there is, Java has static initialization blocks.
+ *
+ * NOTE: later I discovered Java has static initialization blocks, so, it's possible.
  */
 
 class ServerConfig {

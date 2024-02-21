@@ -51,7 +51,7 @@ public class BranchingWithSwitch {
                 break;
         }
 
-        System.err.println(STR.  "Am I free? \{isFreeDay ? "Yes" : "  No"}.");
+        System.err.println(STR."Am I free? \{isFreeDay ? "Yes" : "  No"}.");
     }
 
     static void stringSwitch() {
@@ -76,9 +76,6 @@ public class BranchingWithSwitch {
                 break;
         }
 
-        System.err.println(STR.
-
-
-    "Qualitative result: \{qualitativeScore}.");
+        System.err.println(STR."Qualitative result: \{qualitativeScore}.");
     }
 }

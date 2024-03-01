@@ -77,7 +77,7 @@ public class Strings {
 	final var price = 20.99D;
 
 	// The [toString] method is invoked implictly, then the string on the
-	// right ins concatenated.
+	// right is concatenated.
 	println(price + " = Hello World");
 
 	// We can use the + operator to conviniently create strings that span

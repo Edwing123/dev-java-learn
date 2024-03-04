@@ -66,7 +66,7 @@ public class Strings {
 
 	println(STR."The message is: \{fullMsg}.");
 
-	// Java provides a more convinient way for concatenating strings using
+	// Java provides a more convenient way for concatenating strings using
 	// the + operator.
 	final var message = label + " " + msg + " " + label;
 
@@ -76,11 +76,11 @@ public class Strings {
 	// objects, the [toString] method of the object is invoked.
 	final var price = 20.99D;
 
-	// The [toString] method is invoked implictly, then the string on the
+	// The [toString] method is invoked implicitly, then the string on the
 	// right is concatenated.
 	println(price + " = Hello World");
 
-	// We can use the + operator to conviniently create strings that span
+	// We can use the + operator to conveniently create strings that span
 	// in multiple lines.
 	println(
 		"This is a message, " +
@@ -90,7 +90,7 @@ public class Strings {
 
 	// In Java SE 15 a new feature is introduced for creating text blocks.
 	final var poem = """
-					I was tired, not because I did not get enought rest,
+					I was tired, not because I did not get enough rest,
 					but rather I was being drawn from my displeasure.
 					""";
 

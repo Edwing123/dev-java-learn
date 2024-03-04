@@ -95,6 +95,13 @@ public class Strings {
 					""";
 
 	println(poem);
+
+	//	Creating format strings.
+	// We can use the static method [format] from
+	// the [String] class.
+	final var welcomeMessage = String.format("Weclcome %s, it is a pleasure to have you here.", name);
+
+	println(welcomeMessage);
   }
 
   static void println(Object arg) {

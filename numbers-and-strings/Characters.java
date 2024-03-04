@@ -15,7 +15,7 @@ public class Characters {
 
 		System.err.println(STR."My initial is \{initial}.");
 
-		// Instantatiate a [Character] class.
+		// Instantiate a [Character] class.
 		// Note: a warning message says that this
 		// constructor has been marked for removal.
 		// var anotherInitial = new Character('V');

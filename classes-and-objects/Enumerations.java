@@ -69,7 +69,7 @@ enum OS {
 }
 
 /**
- * All enumerations implictly extend java.lang.Enum.
+ * All enumerations implicitly extend java.lang.Enum.
  * And they cannot extend any other class, neither can
  * other classes extend them. They can implement interfaces though.
  */

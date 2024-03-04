@@ -53,6 +53,14 @@ public class GettingCharactersAndSubStrings {
 		final var endIndex = Integer.parseInt(secondArg);
 
 		println(STR."Start: \{startIndex}, end: \{endIndex}.");
+
+		final var message = "Hello, this is a message from Edwin";
+
+		println(STR."The message is '\{message}'");
+
+		final var subStringMessage = message.substring(startIndex, endIndex);
+
+		println(STR."message[\{startIndex}, \{endIndex}] = '\{subStringMessage}'.");
 	}
 
 	static void println(Object text) {

@@ -12,16 +12,21 @@ public class GettingCharactersAndSubStrings {
 		println(operation);
 		println(java.util.Arrays.toString(operationArgs));
 
-		switch(operation) {
-			case CharAt:
-				indexOfExample(operationArgs);
-				break;
+		try {
+			switch(operation) {
+				case CharAt:
+					indexOfExample(operationArgs);
+					break;
 
-			case SubString:
-				subStringExample(operationArgs);
-				break;
-			default:
-				throw new RuntimeException("Undefined operation.");
+				case SubString:
+					subStringExample(operationArgs);
+					break;
+				default:
+					throw new RuntimeException("Undefined operation.");
+			}
+		} catch (Exception exception) {
+			println("An exception occured:");
+			println(exception.getMessage());
 		}
 	}
 

@@ -1,4 +1,3 @@
-
 /**
 */
 
@@ -8,7 +7,7 @@ public final class StringBuilderOperations {
   }
 
   static void println(Object obj) {
-    System.err.printl(obj);
+    System.err.println(obj);
   }
 }
 

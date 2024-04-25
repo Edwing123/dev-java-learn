@@ -16,7 +16,7 @@ public final class OverridingAndHidingMethods {
  * If we define an instance method with the same name and signature from that
  * of one of the superclasses up in the inheritance chain, we are effectively overriding
  * that method: This means, whenever we call that method through an instance of the
- * subclass, the method that will be invoked is the one with defined.
+ * subclass, the method that will be invoked is the new one we defined in the subclass.
  *
  * This comes in handy when the subclass wants to provide specialized behavior that the
  * inherited method does not perform (see example 1.0 below).
